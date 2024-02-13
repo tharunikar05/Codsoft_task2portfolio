@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.stylish-text-5 {
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    color: #9b59b6;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.hero {
+    position: relative;
+    background: lavenderblush;
+    padding: 20px;
+}
+nav{
+    background-color: transparent;  /* #A89B90 */
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+  
+}
+nav li{
+    display: inline-block;
+    margin:0 9px;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+nav a:hover {
+    color: red;
+}
+
+.detel {
+    width: 60%;
+    float: left;
+    padding: 20px;
+    margin:50px;
+}
+
+.detel h1 {
+    font-size: 50px;
+    color: #212121;margin-left: 50px;
+  
+}
+
+.detel p {
+    color: #555;
+    line-height: 22px;margin-left: 50px;
+}
+
+.images {
+    .images {
+        .images{
+        width: 30%;
+        position: absolute;
+        top: 30%; 
+        right: 20%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+}
+}
+
+.images img {
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    display: block; 
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  margin-bottom: 20px;
+}
+#skills {
+    background-color: #f8f8f8; 
+    padding: 40px;
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    font-size: 28px;
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px; 
+}
+
+.skill {
+    background-color:lavenderblush; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-5px); 
+}
+
+.skill h3 {
+    font-size: 20px;
+    color: #333; 
+    margin-bottom: 10px;
+}
+
+.skill ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill ul li {
+    font-size: 16px;
+    color: #666; 
+    margin-bottom: 6px;
+}
+
+
+.section {
+    background-color: lavenderblush;
+    padding: 40px;
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Title Styling */
+.section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Text Styling */
+.section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Education Item Styling */
+.education-item, .about-content {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.education-item p {
+    font-size: 16px;
+    color: #777;
+}
+.education-item:hover, .about-content:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+    background:lavenderblush;
+    padding: 40px;
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 28px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+#contact a{
+    text-decoration: none;
+}
+button {
+    background-color: #575353; 
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #6e125a; 
+}
+
